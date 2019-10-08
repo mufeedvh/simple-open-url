@@ -1,5 +1,5 @@
 {
-  "name": "simpleopen",
+  "name": "simple-open-url",
   "version": "1.0.0",
   "description": "Cli to open a url",
   "main": "src/open.js",

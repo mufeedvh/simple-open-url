@@ -8,7 +8,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "open": "node src/cli.js https://github.com/codinggirl/simple-open-url"
+    "test:single": "node src/cli.js https://github.com/codinggirl/simple-open-url#single",
+    "test:multiple": "node src/cli.js https://github.com/codinggirl/simple-open-url#multiple-1 https://github.com/codinggirl/simple-open-url#multiple2"
   },
   "keywords": [
     "simple-open-url",

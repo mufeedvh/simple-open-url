@@ -1,12 +1,10 @@
 {
-  "name": "openurl-cli",
+  "name": "simpleopen",
   "version": "1.0.0",
   "description": "Cli to open a url",
   "main": "src/open.js",
   "bin": {
-    "open-cli": "src/cli.js",
-    "openurl-cli": "src/cli.js",
-    "openurl": "src/cli.js"
+    "simpleopen": "src/cli.js"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -14,6 +12,7 @@
     "open2": "npm run open"
   },
   "keywords": [
+    "simpleopen",
     "open",
     "openurl",
     "open-url"

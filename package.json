@@ -1,0 +1,31 @@
+{
+  "name": "openurl-cli",
+  "version": "1.0.0",
+  "description": "Cli to open a url",
+  "main": "src/open.js",
+  "bin": {
+    "open-cli": "src/cli.js",
+    "openurl-cli": "src/cli.js",
+    "openurl": "src/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "open": "node src/cli.js https://github.com/codinggirl/openurl-cli",
+    "open2": "npm run open"
+  },
+  "keywords": [
+    "open",
+    "openurl",
+    "open-url"
+  ],
+  "author": "Richard Libre",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codinggirl/openurl-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/codinggirl/openurl-cli/issues"
+  },
+  "homepage": "https://github.com/codinggirl/openurl-cli#readme"
+}

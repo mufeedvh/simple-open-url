@@ -20,7 +20,7 @@ function open(url) {
         console.error(`Your platform ${platform} is not supported, please use other package instead`)
         return
     }
-    execFile(`${command}`, [`${url}`])
+    execFile(command, [url])
 }
 
 module.exports = open
